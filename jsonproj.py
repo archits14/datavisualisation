@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt 
 import pandas as pd 
 
-#importing crime data from json file
+#importing the crime data from json file
 crimedata = pd.read_json('crimedata.json', orient='columns')
 
 #user prompt for asking what data needs to be plotted
